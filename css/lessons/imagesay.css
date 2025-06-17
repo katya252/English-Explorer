@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: #fff;
+    margin: 0;
+     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 999; /* Поверх всего, чтоб по-любому кликалось */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .task-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #ff6b6b, #f06595, #9b5de5);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #feedback {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+}
+  
+  button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #f06595, #845ec2);
+  }
+  
+  #feedback {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #ff6b6b, #f06595, #9b5de5);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .back-button:hover {
+    background: linear-gradient(135deg, #f06595, #9b5de5, #845ec2);
+    transform: translateY(-2px);
+  }
+
+  .images-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Две колонки */
+    gap: 20px; /* Расстояние между картинками */
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0; /* Снижаем z-index, чтобы контейнер не перекрывал элементы */
+  }
+  .column {
+    display: flex;
+    flex-direction: column; /* Расположение картинок в колонке */
+    gap: 20px; /* Отступы между картинками */
+  }
+  .side-img {
+    width: 200px; /* Размер изображений */
+    height: auto;
+    border-radius: 50%; /* Скругление углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .side-img:hover {
+    transform: scale(1.1); /* Увеличение при наведении */
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.8), 
+                0 8px 16px rgba(0, 0, 0, 0.4); /* Свечение и тень */
+  }
+  
+  /* Для улучшения видимости, добавим z-index для других элементов */
+  .container {
+    position: relative;
+    z-index: 1; /* Обеспечим, чтобы контейнер был выше картинок */
+  }

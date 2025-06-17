@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: #fff;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .audio-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .audio-button {
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .audio-button:hover {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .seekbar {
+    width: 80%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  .seekbar::-webkit-slider-runnable-track {
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .seekbar::-webkit-slider-thumb {
+    background-color: #ff6b6b;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    appearance: none;
+  }
+  
+  .current-time {
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 15px;
+  }
+  
+  .input-field {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    margin-top: 15px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  
+  button.option {
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+  }
+  
+  button.option:hover {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+  }
+  
+  .feedback {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #ff6b6b, #f06595, #9b5de5);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }  
+
+  .images-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Две колонки */
+    gap: 20px; /* Расстояние между картинками */
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0; /* Снижаем z-index, чтобы контейнер не перекрывал элементы */
+  }
+  .column {
+    display: flex;
+    flex-direction: column; /* Расположение картинок в колонке */
+    gap: 20px; /* Отступы между картинками */
+  }
+  .side-img {
+    width: 200px; /* Размер изображений */
+    height: auto;
+    border-radius: 50%; /* Скругление углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .side-img:hover {
+    transform: scale(1.1); /* Увеличение при наведении */
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.8), 
+                0 8px 16px rgba(0, 0, 0, 0.4); /* Свечение и тень */
+  }
+  
+  /* Для улучшения видимости, добавим z-index для других элементов */
+  .container {
+    position: relative;
+    z-index: 1; /* Обеспечим, чтобы контейнер был выше картинок */
+  }
