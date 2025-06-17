@@ -1,0 +1,24 @@
+{
+  "images": [
+    { "src": "/img/Кошка.png", "answer": "Cat" },
+    { "src": "/img/Собака.png", "answer": "Dog" },
+    { "src": "/img/дмо.png", "answer": "Home" },
+    { "src": "/img/яблоко.png", "answer": "Apple" },
+    { "src": "/img/арбуз.png", "answer": "Watermelon" },
+    { "src": "/img/конфета.png", "answer": "Candy" },
+    { "src": "/img/шоколад.png", "answer": "Chocolate" },
+    { "src": "/img/комп.png", "answer": "Computer" },
+    { "src": "/img/учитель.png", "answer": "Teacher" },
+    { "src": "/img/лошадь.png", "answer": "Horse" },
+    { "src": "/img/банан.png", "answer": "Banana" },
+    { "src": "/img/лимон.png", "answer": "Lemon" },
+    { "src": "/img/платье.png", "answer": "Dress" },
+    { "src": "/img/машина.png", "answer": "Car" },
+    { "src": "/img/дерево.png", "answer": "Tree" },
+    { "src": "/img/цветок.png", "answer": "Flower" },
+    { "src": "/img/солнце.png", "answer": "Sun" },
+    { "src": "/img/река.png", "answer": "River" },
+    { "src": "/img/мяч.png", "answer": "Ball" },
+    { "src": "/img/дельфин.png", "answer": "Dolphin" }
+  ]
+}

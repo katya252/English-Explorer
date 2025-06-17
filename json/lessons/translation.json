@@ -1,0 +1,32 @@
+{
+  "sentences": [
+    
+    { "id": 1, "original": "I have a cat", "translation": "У меня есть кошка", "class": 2 },
+    { "id": 2, "original": "This is my mother", "translation": "Это моя мама", "class": 2 },
+    { "id": 3, "original": "I like apples", "translation": "Я люблю яблоки", "class": 2 },
+    { "id": 4, "original": "My school is big", "translation": "Моя школа большая", "class": 2 },
+    { "id": 5, "original": "I see a bird", "translation": "Я вижу птицу", "class": 2 },
+    { "id": 6, "original": "She is my friend.", "translation": "Она моя подруга.", "class": 2 },
+    { "id": 7, "original": "How old are you?", "translation": "Сколько тебе лет?", "class": 2 },
+    { "id": 8, "original": "I am ten years old", "translation": "Мне десять лет", "class": 2 },
+    { "id": 9, "original": "He has a green ball", "translation": "У него зелёный мяч", "class": 2 },
+    
+    { "id": 6, "original": "This is her room", "translation": "Это её комната", "class": 3 },
+    { "id": 7, "original": "We play in the park", "translation": "Мы играем в парке", "class": 3 },
+    { "id": 8, "original": "Today is Monday", "translation": "Сегодня понедельник", "class": 3 },
+    { "id": 9, "original": "She can sing", "translation": "Она умеет петь", "class": 3 },
+    { "id": 10, "original": "What is your favorite book?", "translation": "Какая твоя любимая книга?", "class": 3 },
+    { "id": 11, "original": "She has long hair", "translation": "У неё длинные волосы", "class": 3 },
+    { "id": 12, "original": "He has two brothers", "translation": "У него два брата", "class": 3 },
+    { "id": 13, "original": "I like to draw", "translation": "Я люблю рисовать", "class": 3 },
+    { "id": 14, "original": "Where is your pen?", "translation": "Где твоя ручка?", "class": 3 },
+   
+    { "id": 6, "original": "I live in Russia", "translation": "Я живу в России", "class": 4 },
+    { "id": 7, "original": "I feel good", "translation": "Я чувствую себя хорошо", "class": 4 },
+    { "id": 8, "original": "I never eat fast food", "translation": "Я никогда не ем фастфуд", "class": 4 },
+    { "id": 9, "original": "I don't have a dog", "translation": "У меня нет собаки", "class": 4 },
+    { "id": 10, "original": "I want to read this book", "translation": "Я хочу прочитать эту книгу", "class": 4 },
+    { "id": 12, "original": "I have a cold", "translation": "У меня простуда", "class": 4 }
+    
+  ]
+}

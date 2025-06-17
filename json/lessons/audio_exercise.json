@@ -1,0 +1,148 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "class": 2,
+      "title": "Основы английского языка",
+      "description": "Изучение базовой грамматики, алфавита и простых слов.",
+      "text": "She is playing the guitar",
+      "correctAnswer": "She is playing the guitar"
+    },
+    {
+      "id": 2,
+      "class": 2,
+      "title": "Цвета и формы",
+      "description": "Изучение основных цветов и форм на английском языке.",
+      "text": "The apple is red",
+      "correctAnswer": "The apple is red"
+    },
+    {
+      "id": 3,
+      "class": 2,
+      "title": "Семья и дом",
+      "description": "Слова и выражения о семье и домашних предметах.",
+      "text": "This is my mother",
+      "correctAnswer": "This is my mother"
+    },
+    {
+      "id": 4,
+      "class": 2,
+      "title": "Еда и напитки",
+      "description": "Название продуктов и обсуждение еды.",
+      "text": "I like eating pizza",
+      "correctAnswer": "I like eating pizza"
+    },
+    {
+      "id": 5,
+      "class": 2,
+      "title": "Животные",
+      "description": "Изучение названий животных и их описания.",
+      "text": "The dog is barking",
+      "correctAnswer": "The dog is barking"
+    },
+    {
+      "id": 6,
+      "class": 2,
+      "title": "Времена года и погода",
+      "description": "Слова о временах года и погоде.",
+      "text": "It is raining today",
+      "correctAnswer": "It is raining today"
+    },
+    {
+      "id": 7,
+      "class": 3,
+      "title": "Разговорные ситуации",
+      "description": "Практика фраз для общения в различных ситуациях.",
+      "text": "How are you?",
+      "correctAnswer": "How are you?"
+    },
+    {
+      "id": 8,
+      "class": 3,
+      "title": "Путешествия",
+      "description": "Слова и фразы, связанные с путешествиями.",
+      "text": "I am going to the airport",
+      "correctAnswer": "I am going to the airport"
+    },
+    {
+      "id": 9,
+      "class": 3,
+      "title": "Школа и образование",
+      "description": "Слова и выражения, связанные со школой и учебными принадлежностями.",
+      "text": "I need a pencil",
+      "correctAnswer": "I need a pencil"
+    },
+    {
+      "id": 10,
+      "class": 3,
+      "title": "Спорт и активный отдых",
+      "description": "Лексика, связанная со спортом и отдыхом.",
+      "text": "She plays basketball",
+      "correctAnswer": "She plays basketball"
+    },
+    {
+      "id": 11,
+      "class": 3,
+      "title": "Одежда и покупки",
+      "description": "Названия предметов одежды и фразы для покупок.",
+      "text": "I bought a new shirt",
+      "correctAnswer": "I bought a new shirt"
+    },
+    {
+      "id": 12,
+      "class": 3,
+      "title": "Праздники и традиции",
+      "description": "Слова о праздниках и культурных традициях.",
+      "text": "We celebrate Christmas",
+      "correctAnswer": "We celebrate Christmas"
+    },
+    {
+      "id": 13,
+      "class": 4,
+      "title": "География и путешествия",
+      "description": "Лексика, связанная с географией, странами и путешествиями.",
+      "text": "I want to visit Japan",
+      "correctAnswer": "I want to visit Japan"
+    },
+    {
+      "id": 14,
+      "class": 4,
+      "title": "Здоровье и благополучие",
+      "description": "Лексика, связанная с состоянием здоровья и здоровым образом жизни.",
+      "text": "I am feeling tired",
+      "correctAnswer": "I am feeling tired"
+    },
+    {
+      "id": 15,
+      "class": 4,
+      "title": "Технологии и интернет",
+      "description": "Слова и выражения о технологиях, интернете и устройствах.",
+      "text": "I need a new laptop",
+      "correctAnswer": "I need a new laptop"
+    },
+    {
+      "id": 16,
+      "class": 4,
+      "title": "Кино и музыка",
+      "description": "Лексика, связанная с кино, музыкой и хобби.",
+      "text": "I love watching movies",
+      "correctAnswer": "I love watching movies"
+    },
+    {
+      "id": 17,
+      "class": 4,
+      "title": "Природа и экология",
+      "description": "Лексика, связанная с природой и охраной окружающей среды.",
+      "text": "The forest is beautiful",
+      "correctAnswer": "The forest is beautiful"
+    },
+    {
+      "id": 18,
+      "class": 4,
+      "title": "Навыки профессионала",
+      "description": "Лексика, связанная с карьерой.",
+      "text": "He is a doctor",
+      "correctAnswer": "He is a doctor"
+    }
+  ]
+}

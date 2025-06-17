@@ -1,0 +1,123 @@
+{
+  "sentences": [
+    {
+      "id": 1,
+      "correct_order": "I am learning English",
+      "words": ["am", "learning", "I", "English"],
+      "class": 2,
+      "topic": "Основы английского языка"
+    },
+    {
+      "id": 2,
+      "correct_order": "She likes to read books",
+      "words": ["books", "to", "read", "likes", "She"],
+      "class": 2,
+      "topic": "Основы английского языка"
+    },
+    {
+      "id": 3,
+      "correct_order": "The apple is red",
+      "words": ["is", "apple", "red", "The"],
+      "class": 2,
+      "topic": "Цвета и формы"
+    },
+    {
+      "id": 4,
+      "correct_order": "My mother is at home",
+      "words": ["My", "is", "mother", "at", "home"],
+      "class": 2,
+      "topic": "Семья и дом"
+    },
+    {
+      "id": 5,
+      "correct_order": "I like to drink water",
+      "words": ["to", "water", "drink", "like", "I"],
+      "class": 2,
+      "topic": "Еда и напитки"
+    },
+    {
+      "id": 6,
+      "correct_order": "The dog is big",
+      "words": ["dog", "is", "The", "big"],
+      "class": 2,
+      "topic": "Животные"
+    },
+    {
+      "id": 7,
+      "correct_order": "It is cold in winter",
+      "words": ["cold", "It", "is", "in", "winter"],
+      "class": 2,
+      "topic": "Времена года и погода"
+    },
+    {
+      "id": 9,
+      "correct_order": "I am going on a trip",
+      "words": ["am", "going", "on", "I", "trip", "a"],
+      "class": 3,
+      "topic": "Путешествия"
+    },
+    {
+      "id": 10,
+      "correct_order": "We have books at school",
+      "words": ["at", "books", "school", "We", "have"],
+      "class": 3,
+      "topic": "Школа и образование"
+    },
+    {
+      "id": 11,
+      "correct_order": "He likes playing football",
+      "words": ["playing", "He", "likes", "football"],
+      "class": 3,
+      "topic": "Спорт и активный отдых"
+    },
+    {
+      "id": 12,
+      "correct_order": "She bought a red dress",
+      "words": ["red", "dress", "She", "bought", "a"],
+      "class": 3,
+      "topic": "Одежда и покупки"
+    },
+    {
+      "id": 13,
+      "correct_order": "We celebrate New Year in December",
+      "words": ["celebrate", "December", "We", "in", "New", "Year"],
+      "class": 3,
+      "topic": "Праздники и традиции"
+    },
+    {
+      "id": 14,
+      "correct_order": "Russia is a big country",
+      "words": ["big", "is", "Russia", "country", "a"],
+      "class": 4,
+      "topic": "География и путешествия"
+    },
+    {
+      "id": 16,
+      "correct_order": "My phone is broken",
+      "words": ["My", "phone", "is", "broken"],
+      "class": 4,
+      "topic": "Технологии и интернет"
+    },
+    {
+      "id": 17,
+      "correct_order": "I love watching movies",
+      "words": ["I", "love", "watching", "movies"],
+      "class": 4,
+      "topic": "Кино и музыка"
+    },
+    {
+      "id": 18,
+      "correct_order": "The forest is beautiful",
+      "words": ["The", "forest", "is", "beautiful"],
+      "class": 4,
+      "topic": "Природа и экология"
+    },
+    {
+      "id": 19,
+      "correct_order": "A teacher helps students",
+      "words": ["A", "teacher", "helps", "students"],
+      "class": 4,
+      "topic": "Навыки профессионала"
+    }
+  ]
+}

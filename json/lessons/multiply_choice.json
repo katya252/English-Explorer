@@ -1,0 +1,214 @@
+{
+  "questions": [
+    {
+      "sentence": "I _____ a dog.",
+      "options": ["have", "has", "is"],
+      "answer": "have",
+      "class": 2,
+      "topic": "Одежда и покупки"
+    },
+    {
+      "sentence": "The cat _____ small.",
+      "options": ["is", "are", "am"],
+      "answer": "is",
+      "class": 2,
+      "topic": "Семья и дом"
+    },
+    {
+      "sentence": "We _____ to school.",
+      "options": ["goes", "go", "going"],
+      "answer": "go",
+      "class": 2,
+      "topic": "Путешествия"
+    },
+    {
+      "sentence": "You _____ happy.",
+      "options": ["is", "am", "are"],
+      "answer": "are",
+      "class": 2,
+      "topic": "Основы английского языка"
+    },
+    {
+      "sentence": "i _____ seven.",
+      "options": ["is", "am", "are"],
+      "answer": "am",
+      "class": 2,
+      "topic": "Еда и напитки"
+    },
+    {
+      "sentence": "I _____ milk.",
+      "options": ["like", "likes", "liking"],
+      "answer": "like",
+      "class": 2,
+      "topic": "Школа и образование"
+    },
+    {
+      "sentence": "My brother _____ tall.",
+      "options": ["has", "are", "is"],
+      "answer": "is",
+      "class": 2,
+      "topic": "География и путешествия"
+    },
+    {
+      "sentence": "She _____ apples.",
+      "options": ["eats", "eat", "eating"],
+      "answer": "eat",
+      "class": 2,
+      "topic": "Школа и образование"
+    },
+    {
+      "sentence": "He _____ sad.",
+      "options": ["is", "are", "have"],
+      "answer": "is",
+      "class": 2,
+      "topic": "Семья и дом"
+    },
+    {
+      "sentence": "The apples _____ sweet.",
+      "options": ["have", "are", "is"],
+      "answer": "are",
+      "class": 2,
+      "topic": "Животные"
+    },
+    {
+      "sentence": "I _____ breakfast at 8.",
+      "options": ["has", "have", "had"],
+      "answer": "have",
+      "class": 3,
+      "topic": "Еда и напитки"
+    },
+    {
+      "sentence": "She _____ in a small town.",
+      "options": ["lives", "live", "living"],
+      "answer": "lives",
+      "class": 3,
+      "topic": "Времена года и погода"
+    },
+    {
+      "sentence": "My dad _____ TV in the evening.",
+      "options": ["wathing", "watch", "watches"],
+      "answer": "watches",
+      "class": 3,
+      "topic": "Здоровье и благополучие"
+    },
+    {
+      "sentence": "My sister _____ a bike.",
+      "options": ["has", "have", "is"],
+      "answer": "has",
+      "class": 3,
+      "topic": "Путешествия"
+    },
+    {
+      "sentence": "He _____ in the park.",
+      "options": ["run", "runs", "running"],
+      "answer": "runs",
+      "class": 3,
+      "topic": "Цвета и формы"
+    },
+    {
+      "sentence": "Can you help me with my _____?",
+      "options": ["homework", "game", "question"],
+      "answer": "homework",
+      "class": 3,
+      "topic": "Школа и образование"
+    },
+    {
+      "sentence": "My mother is a _____ at the school.",
+      "options": ["student", "teacher", "doctor"],
+      "answer": "teacher",
+      "class": 3,
+      "topic": "Школа и образование"
+    },
+    {
+      "sentence": "We are _____ at the zoo.",
+      "options": ["is", "am", "are"],
+      "answer": "are",
+      "class": 3,
+      "topic": "Еда и напитки"
+    },
+    {
+      "sentence": "The house _____ white.",
+      "options": ["be", "are", "is"],
+      "answer": "is",
+      "class": 3,
+      "topic": "Спорт и активный отдых"
+    },
+    {
+      "sentence": "We _____ in Russia.",
+      "options": ["lives", "live", "living"],
+      "answer": "live",
+      "class": 3,
+      "topic": "Природа и экология"
+    },
+    {
+      "sentence": "We saw a _____ at the zoo yesterday.",
+      "options": ["cat", "tiger", "fish"],
+      "answer": "tiger",
+      "class": 4,
+      "topic": "Животные"
+    },
+    {
+      "sentence": "We celebrate New Year on _____.",
+      "options": ["August 15", "December 25", "January 1"],
+      "answer": "January 1",
+      "class": 4,
+      "topic": "Праздники и традиции"
+    },
+    {
+      "sentence": "She is reading a _____ in the library.",
+      "options": ["book", "computer", "pen"],
+      "answer": "book",
+      "class": 4,
+      "topic": "Основы английского языка"
+    },
+    {
+      "sentence": "My brother _____ football on Sundays.",
+      "options": ["play", "plays", "playing"],
+      "answer": "plays",
+      "class": 4,
+      "topic": "География и путешествия"
+    },
+    {
+      "sentence": "My sister _____ to music every evening.",
+      "options": ["listens", "listen", "listening"],
+      "answer": "listens",
+      "class": 4,
+      "topic": "Спорт и активный отдых"
+    },
+    {
+      "sentence": "It’s very _____ in winter.",
+      "options": ["cold", "hot", "warm"],
+      "answer": "cold",
+      "class": 4,
+      "topic": "Времена года и погода"
+    },
+    {
+      "sentence": "She is a great _____ at playing the piano.",
+      "options": ["student", "teacher", "musician"],
+      "answer": "musician",
+      "class": 4,
+      "topic": "Кино и музыка"
+    },
+    {
+      "sentence": "He _____ not eat meat.",
+      "options": ["do", "is", "does"],
+      "answer": "does",
+      "class": 4,
+      "topic": "Основы английского языка"
+    },
+    {
+      "sentence": "We  _____ never been to London.",
+      "options": ["has", "have", "are"],
+      "answer": "have",
+      "class": 4,
+      "topic": "Основы английского языка"
+    },
+    {
+      "sentence": "The lesson _____ at 9 o'clock.",
+      "options": ["starts", "start", "started"],
+      "answer": "starts",
+      "class": 4,
+      "topic": "Основы английского языка"
+    }
+  ]
+}
