@@ -1,0 +1,183 @@
+/* tasks.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: #fff;
+  margin: 0;
+}
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 999; /* Поверх всего, чтоб по-любому кликалось */
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.images-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Две колонки */
+  gap: 20px; /* Расстояние между картинками */
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0; /* Снижаем z-index, чтобы контейнер не перекрывал элементы */
+}
+.column {
+  display: flex;
+  flex-direction: column; /* Расположение картинок в колонке */
+  gap: 20px; /* Отступы между картинками */
+}
+.side-img {
+  width: 200px; /* Размер изображений */
+  height: auto;
+  border-radius: 50%; /* Скругление углов */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.side-img:hover {
+  transform: scale(1.1); /* Увеличение при наведении */
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.8), 
+              0 8px 16px rgba(0, 0, 0, 0.4); /* Свечение и тень */
+}
+
+/* Для улучшения видимости, добавим z-index для других элементов */
+.container {
+  position: relative;
+  z-index: 1; /* Обеспечим, чтобы контейнер был выше картинок */
+} 
+.container {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none; /* Убирает подчеркивание ссылок */
+}
+
+.task h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+}
+
+.task p {
+  font-size: 1rem;
+  color: #ffffff;
+  opacity: 0.9;
+  margin-top: 5px;
+}
+
+.task:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Стиль для кнопки "Назад" */
+.back-button {
+  position: fixed; /* Используем fixed для постоянного расположения */
+  top: 20px;
+  left: 20px;
+  z-index: 1000; /* Убедимся, что кнопка всегда на переднем плане */
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #ff6b6b, #f06595, #9b5de5);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Плавный эффект для кнопки */
+.back-button:hover {
+  background: linear-gradient(135deg, #f06595, #9b5de5, #845ec2);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Стиль для выпадающего списка */
+.class-select {
+  margin-bottom: 10px;
+  background-color: #f2f2f2; /* Светлый фон для списка */
+  color: #333; /* Темный текст */
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid #ccc; /* Светлая граница */
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 200px;
+  cursor: pointer;
+  appearance: none; /* Убираем стандартный стиль браузера */
+  outline: none;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Стиль для выпадающего списка при фокусе */
+.class-select:focus {
+  border-color: #4e54c8; /* Подсветка границы */
+  background-color: #e6e6ff; /* Легкий синий фон при фокусе */
+}
+
+/* Стиль для выпадающего списка при наведении */
+.class-select:hover {
+  background-color: #e0e0e0; /* Светлый фон при наведении */
+}
+
+/* Стиль для стрелки */
+.class-select::-ms-expand {
+  display: none; /* Убираем стрелку на IE */
+}
+
+/* Для мобильных устройств */
+@media (max-width: 600px) {
+  .class-select {
+    width: 150px;
+  }
+}
