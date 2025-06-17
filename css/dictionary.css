@@ -1,0 +1,187 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: #fff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden; /* Фиксируем содержимое страницы */
+}
+
+.search-box {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 999; /* Поверх всего, чтоб по-любому кликалось */
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.images-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Две колонки */
+  gap: 1000px; /* Расстояние между картинками */
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0; /* Снижаем z-index, чтобы контейнер не перекрывал элементы */
+}
+.column {
+  display: flex;
+  flex-direction: column; /* Расположение картинок в колонке */
+  gap: 20px; /* Отступы между картинками */
+}
+.side-img {
+  width: 200px; /* Размер изображений */
+  height: auto;
+  border-radius: 50%; /* Скругление углов */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.side-img:hover {
+  transform: scale(1.1); /* Увеличение при наведении */
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.8), 
+              0 8px 16px rgba(0, 0, 0, 0.4); /* Свечение и тень */
+}
+
+/* Для улучшения видимости, добавим z-index для других элементов */
+.container {
+  position: relative;
+  z-index: 1; /* Обеспечим, чтобы контейнер был выше картинок */
+}
+
+.search-box input {
+  padding: 10px;
+  width: 60%;
+  max-width: 400px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  height: 80%; /* Ограничиваем высоту контейнера */
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+th {
+  background-color: #4e54c8;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+td {
+  color: #e0e0e0;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+tr:hover {
+  background-color: rgba(142, 146, 251, 0.2);
+}
+
+/* Добавляем прокрутку для таблицы */
+#dictionary-table {
+  height: 100%; /* Таблица занимает всю доступную высоту */
+}
+
+#dictionary-table tbody {
+  display: block;
+  height: calc(100% - 40px); /* Высота тела таблицы с учетом шапки */
+  overflow-y: auto;
+}
+
+#dictionary-table thead, #dictionary-table tbody tr {
+  display: table; /* Убираем проблемы с отображением */
+  width: 100%; /* Сохраняем ширину таблицы */
+  table-layout: fixed; /* Фиксируем ширину столбцов */
+}
+
+/* Кнопка "назад" */
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #ff6b6b, #f06595, #9b5de5);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  text-decoration: none; /* Убирает подчеркивание кнопки */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.back-button:hover {
+  background: linear-gradient(135deg, #f06595, #9b5de5, #845ec2);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}

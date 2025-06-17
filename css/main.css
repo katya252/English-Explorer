@@ -1,0 +1,227 @@
+/* styles.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: #fff;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  max-width: 800px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px); /* Сильно размытый фон */
+}
+
+
+h1 {
+  font-size: 2.8rem;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.section {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 30px;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(15px);
+  overflow: hidden;
+}
+
+.section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+}
+
+.section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #f7f7f7;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+}
+
+.section p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.5;
+}
+
+.section:hover h2,
+.section:hover p {
+  color: #faeeee;
+}
+
+.auth-btn {
+  display: inline-block;
+  margin: 0px 20px; /* Верхний и нижний отступы для кнопки */
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.auth-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(135deg, #8a2be2, #00c6ff);
+}
+
+.container > .auth-btn {
+  margin-bottom: 40px; /* Создаем дополнительный отступ перед секциями */
+}
+
+/* Стили для формы */
+.form-group input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1rem;
+  color: #333;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group input:focus {
+  outline: none;
+  background: #fff;
+  border-color: #4e54c8;
+  box-shadow: 0 4px 10px rgba(78, 84, 200, 0.3), 0 0 6px rgba(78, 84, 200, 0.5);
+}
+
+.form-group input::placeholder {
+  color: rgba(150, 150, 150, 0.8);
+  font-style: italic;
+}
+
+.form-group label {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.btn {
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.images-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Две колонки */
+  gap: 20px; /* Расстояние между картинками */
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0; /* Снижаем z-index, чтобы контейнер не перекрывал элементы */
+}
+
+.column {
+  display: flex;
+  flex-direction: column; /* Расположение картинок в колонке */
+  gap: 20px; /* Отступы между картинками */
+}
+
+.side-img {
+  width: 200px; /* Размер изображений */
+  height: auto;
+  border-radius: 50%; /* Скругление углов */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.side-img:hover {
+  transform: scale(1.1); /* Увеличение при наведении */
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.8), 
+              0 8px 16px rgba(0, 0, 0, 0.4); /* Свечение и тень */
+}
+
+/* Для улучшения видимости, добавим z-index для других элементов */
+.container {
+  position: relative;
+  z-index: 1; /* Обеспечим, чтобы контейнер был выше картинок */
+}
+
+/* Стили для черного фона с сообщением */
+.orientation-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 9999; /* Обеспечим, чтобы сообщение было поверх */
+  display: none; /* По умолчанию скрыто */
+  text-align: center;
+}
+
+/* Черный фон, если экран вертикальный */
+body.portrait {
+  background-color: black;
+}
+
+/* Стили для содержимого */
+.content {
+  display: block; /* Показываем содержимое только в горизонтальной ориентации */
+  color: #fff;
+}
+
+.section-disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
