@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Задания - English Explorer</title>
+  <link rel="stylesheet" href="/css/lessons.css">
+  <script src="/js/lessons.js" ></script>
+</head>
+<body>
+
+
+  <a href="/index.html" class="back-button">Назад</a>
+  <div class="images-wrapper">
+    <div class="column">
+      <img src="/img/Кошка.png" alt="Кошка" class="side-img">
+      <img src="/img/Кошка2.png" alt="Кошка2" class="side-img">
+      <img src="/img/Кошка3.png" alt="Кошка3" class="side-img">
+    </div>
+    <div class="column">
+      <img src="/img/Кошка4.png" alt="Кошка4" class="side-img">
+      <img src="/img/Собака.png" alt="Собака" class="side-img">
+      <img src="/img/Собака2.png" alt="Собака2" class="side-img">
+    </div>
+  </div>
+  <div class="container">
+    <h1>Выберите задание</h1>
+
+    <h2>Выберите класс</h2>
+    <select id="class-select" class="class-select" onchange="loadTasks()">
+      <option value="2">2 класс</option>
+      <option value="3">3 класс</option>
+      <option value="4">4 класс</option>
+    </select>
+    <div class="task-list">
+      <a href="/html/lessons/translation.html" class="task">
+        <h2>Перевод предложений</h2>
+        <p>Переведите предложение на нужный язык, чтобы закрепить навыки перевода.</p>
+      </a>
+
+      <div class="task-list">
+        <a href="/html/lessons/imagesay.html" class="task">
+          <h2>Напишите, что изображено</h2>
+          <p>Напишите, что изображено на картинке на английском языке.</p>
+        </a>
+
+      <a href="/html/lessons/word_order.html" class="task">
+        <h2>Порядок слов в предложении</h2>
+        <p>Составьте предложение в правильном порядке, перемещая слова.</p>
+      </a>
+
+      <a href="/html/lessons/multiply_choice.html" class="task">
+        <h2>Выбор правильного варианта</h2>
+        <p>Выберите правильное слово для заполнения пробела в предложении.</p>
+      </a>
+
+      <!---<a href="/html/lessons/audio_exercise.html" class="task">
+        <h2>Аудио-упражнение</h2>
+        <p>Прослушайте предложение и введите то, что услышали.</p>
+      </a> --->
+
+      <a href="/html/lessons/pronunciation.html" class="task">
+        <h2>Произношение</h2>
+        <p>Произнесите слово или фразу и получите обратную связь.</p>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

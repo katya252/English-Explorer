@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Словарь - English Explorer</title>
+    <link rel="stylesheet" href="/css/dictionary.css">
+</head>
+<body>
+
+  <a href="/index.html" class="back-button">Назад</a>
+  <div class="images-wrapper">
+    <div class="column">
+      <img src="/img/Кошка.png" alt="Кошка" class="side-img">
+      <img src="/img/Кошка2.png" alt="Кошка2" class="side-img">
+      <img src="/img/Кошка3.png" alt="Кошка3" class="side-img">
+    </div>
+    <div class="column">
+      <img src="/img/Кошка4.png" alt="Кошка4" class="side-img">
+      <img src="/img/Собака.png" alt="Собака" class="side-img">
+      <img src="/img/Собака2.png" alt="Собака2" class="side-img">
+    </div>
+  </div>
+    <div class="container">
+        <h1>Словарь</h1>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Поиск слова или перевода...">
+          </div>
+        <table id="dictionary-table">
+            <thead>
+                <tr>
+                    <th>Слово</th>
+                    <th>Транскрипция</th>
+                    <th>Перевод</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Данные будут загружены здесь -->
+            </tbody>
+        </table>
+    </div>
+    <script src="/js/dictionary.js"></script>
+</body>
+</html>

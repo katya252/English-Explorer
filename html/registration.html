@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Авторизация и регистрация</title>
+  <link rel="stylesheet" href="/css/registraion.css">
+</head>
+<body>
+
+  <a href="/index.html" class="back-button">Назад</a>
+  <div class="images-wrapper">
+    <div class="column">
+      <img src="/img/Кошка.png" alt="Кошка" class="side-img">
+      <img src="/img/Кошка2.png" alt="Кошка2" class="side-img">
+      <img src="/img/Кошка3.png" alt="Кошка3" class="side-img">
+    </div>
+    <div class="column">
+      <img src="/img/Кошка4.png" alt="Кошка4" class="side-img">
+      <img src="/img/Собака.png" alt="Собака" class="side-img">
+      <img src="/img/Собака2.png" alt="Собака2" class="side-img">
+    </div>
+  </div>
+  <div class="container">
+    <!-- Окно авторизации -->
+    <div id="loginWindow" class="form-window">
+      <h2>Авторизация</h2>
+      <form id="loginForm" class="form">
+        <div class="form-group">
+          <label for="login">Логин</label>
+          <input type="email" id="login" placeholder="Введите email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Пароль</label>
+          <input type="password" id="password" placeholder="Введите пароль" required>
+        </div>
+        <button type="submit" class="btn">Войти</button>
+      </form>
+      <p>Нет аккаунта? <a href="#" id="toRegisterLink" class="link-btn">Зарегистрироваться</a></p>
+    </div>
+
+   
+
+    <!-- Окно регистрации -->
+    <div id="registerWindow" class="form-window hidden">
+      <h2>Регистрация</h2>
+      <form id="registerForm" class="form">
+        <div class="form-group">
+          <label for="name">Имя</label>
+          <input type="text" id="name" placeholder="Введите имя" required>
+        </div>
+        <div class="form-group">
+          <label for="registerLogin">Email</label>
+          <input type="email" id="registerLogin" placeholder="Введите email" required>
+        </div>
+        <div class="form-group">
+          <label for="registerPassword">Пароль</label>
+          <input type="password" id="registerPassword" placeholder="Введите пароль" required>
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword">Подтвердите пароль</label>
+          <input type="password" id="confirmPassword" placeholder="Подтвердите пароль" required>
+        </div>
+        <button type="submit" class="btn">Зарегистрироваться</button>
+      </form>
+      <p>Есть аккаунт? <a href="#" id="toLoginLink" class="link-btn">Авторизироваться</a></p>
+    </div>
+  </div>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
+  
+    // Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDk6gLM6CpGHbFB2G_omL301SQKE16e018",
+      authDomain: "englishexplorer-bee31.firebaseapp.com",
+      projectId: "englishexplorer-bee31",
+      storageBucket: "englishexplorer-bee31.firebasestorage.app",
+      messagingSenderId: "657377678224",
+      appId: "1:657377678224:web:80e708e0c0057713001915"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+  
+    // Show/hide windows
+    const loginWindow = document.getElementById('loginWindow');
+    const registerWindow = document.getElementById('registerWindow');
+    document.getElementById('toRegisterLink').addEventListener('click', () => {
+      loginWindow.classList.add('hidden');
+      registerWindow.classList.remove('hidden');
+    });
+    document.getElementById('toLoginLink').addEventListener('click', () => {
+      registerWindow.classList.add('hidden');
+      loginWindow.classList.remove('hidden');
+    });
+  
+    // Registration form
+    const registerForm = document.getElementById('registerForm');
+    registerForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = document.getElementById('registerLogin').value;
+      const password = document.getElementById('registerPassword').value;
+      const confirmPassword = document.getElementById('confirmPassword').value;
+  
+      if (password !== confirmPassword) {
+        alert("Пароли не совпадают!");
+        return;
+      }
+  
+      try {
+        const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+        alert(`Регистрация успешна! Добро пожаловать, ${userCredential.user.email}`);
+        localStorage.setItem('userEmail', userCredential.user.email); // Save email
+        window.location.href = "/index.html"; // Redirect to main page
+      } catch (error) {
+        alert(`Ошибка регистрации: ${error.message}`);
+        console.error(error);
+      }
+    });
+  
+    // Login form
+    const loginForm = document.getElementById('loginForm');
+    loginForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = document.getElementById('login').value;
+      const password = document.getElementById('password').value;
+  
+      try {
+        const userCredential = await signInWithEmailAndPassword(auth, email, password);
+        alert(`Авторизация успешна! Добро пожаловать, ${userCredential.user.email}`);
+        localStorage.setItem('userEmail', userCredential.user.email); // Save email
+        window.location.href = "/index.html"; // Redirect to main page
+      } catch (error) {
+        alert(`Ошибка авторизации: ${error.message}`);
+        console.error(error);
+      }
+    });
+  </script>  
+
+</body>
+</html>

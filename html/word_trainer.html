@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тренажёр для слов - English Explorer</title>
+  <link rel="stylesheet" href="/css/word_trainer.css">
+</head>
+<body>
+  <a href="/index.html" class="back-button">Назад</a>
+  <div class="images-wrapper">
+    <div class="column">
+      <img src="/img/Кошка.png" alt="Кошка" class="side-img">
+      <img src="/img/Кошка2.png" alt="Кошка2" class="side-img">
+      <img src="/img/Кошка3.png" alt="Кошка3" class="side-img">
+    </div>
+    <div class="column">
+      <img src="/img/Кошка4.png" alt="Кошка4" class="side-img">
+      <img src="/img/Собака.png" alt="Собака" class="side-img">
+      <img src="/img/Собака2.png" alt="Собака2" class="side-img">
+    </div>
+  </div>
+  <div class="container">
+    <h1>Тренажёр для слов</h1>
+    <div class="word">Выберите перевод слова: <span id="current-word">Собака</span></div>
+    <div class="options" id="options-container">
+      <!-- Опции для ответов будут генерироваться тут -->
+    </div>
+    <div class="message" id="message"></div>
+  </div>
+  <script src="/js/word_trainer.js"></script>
+</body>
+</html>

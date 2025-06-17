@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог уроков - English Explorer</title>
+  <link rel="stylesheet" href="/css/catalog.css">
+</head>
+<body>
+  <a href="/index.html" class="back-button">Назад</a>
+  
+  <div class="catalog" id="catalog">
+    <h1>Каталог уроков</h1>
+    
+    <div class="inline-container">
+      <label for="class-select">Выберите класс:</label>
+      <select id="class-select" class="class-select">
+          <option value="2">Класс 2</option>
+          <option value="3">Класс 3</option>
+          <option value="4">Класс 4</option>
+      </select>
+    </div>  
+
+    <!-- Прогресс бар для выбранного класса -->
+    <div class="progress-bar-container">
+      <label for="progress-bar">Прогресс:</label>
+      <progress id="progress-bar" class="progress" value="0" max="100"></progress>
+    </div>
+
+    <div id="modules-container" class="modules-container">
+      <!-- Список модулей будет загружен здесь -->
+    </div>
+  </div>
+
+  <div class="module-content" id="module-content">
+    <!-- Содержимое модуля будет показано здесь -->
+</div>
+
+
+  <script src="/js/catalog.js"></script>
+</body>
+</html>
