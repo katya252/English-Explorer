@@ -1,0 +1,130 @@
+{
+  "modules": [
+    {
+      "id": 1,
+      "class": 2,
+      "title": "Личная информация",
+      "description": "Научиться здороваться,представляться и говорить свой возраст.",
+      "content": "# \n\n### Слова и выражения:\n- Hello! -Привет! Либо же Hi!(более неформально)\n- What's your name? -Как тебя зовут?\n- My name is... -Меня зовут...\n- How old our you? -Сколько тебе лет?\n- I am seven years old. -Мне семь лет.\n- Nice to meet you! -Приятно познакомиться! \n\n### Пример диалога:\n- Hello! What's your name? -Привет как тебя зовут?\n- My name is Anna. -Меня зовут Анна.\n- How old are you,Anna? -Сколько тебе лет,Анна?\n- I am seven years old. -Мне семь лет.\n- Nice to meet you! -Приятно познакомиться!"
+    },
+    {
+      "id": 2,
+      "class": 2,
+      "title": "Семья",
+      "description": "Научиться рассказывать о своей семье.",
+      "content": "# \n\n### Слова:\n- Mother -Мама\n- Father -Папа\n- Sister -Сестра\n- Brother -Брат\n- Grandmother -Бабушка\n- Grandfather -Дедушка\n\n### Фразы:\n- This is my mother. -Это моя мама.\n- I have a brother. -У меня есть брат.\n- Who is this? -Кто это?\n- She is my sister. -Она моя сестра. \n- I love my family. -Я люблю свою семью.\n\n### Пример:  \n- My mother is kind. -Моя мама добрая. \n- My father is tall -Мой папа высокий.\n- I have a sister and a brother. -У меня есть сестра и брат."
+    },
+    {
+      "id": 3,
+      "class": 2,
+      "title": "Игрушки",
+      "description": "Научиться называть игрушки.",
+      "content": "# \n\n### Слова: \n- Ball -Мяч\n- Doll -Кукла\n- Car -Машинка\n- Teddy bear -Плюшевый медведь \n\n### Фразы: \n- I have a ball. -У меня есть мяч.\n- This is my toy. -Это моя игрушка.\n- It is a red car -Это красная машинка.\n\n### Пример:\n- I have a doll and a ball. -У меня есть кукла и мяч.\n- My car is red. -Моя машинка красная."
+    },
+    {
+      "id": 4,
+      "class": 2,
+      "title": "Цвета",
+      "description": "Узнать основные цвета и использовать их для описания предметов.",
+      "content": "# \n\n### Слова: \n- Red -Красный\n- Blue -Синий\n- Green -Зеленый\n- Yellow -Желтый\n- Black -Черный\n- White -Белый\n\n### Фразы:\n- It is a blue bag. \n- My ball is green. \n\n### Примеры: \n- The apple is red. -Яблоко красное.\n- The sky is blue. -Небо синее."
+    },
+    {
+      "id": 5,
+      "class": 2,
+      "title": "Животные",
+      "description": "Изучение названий животных и их описания.",
+      "content": "# \n\n### Домашние животные\n- Cat  -Кошка \n- Dog -Собака\n- Bird -Птица\n- Fish -Рыба\n- **Dog [дог]:** собака. Пример: 'Dogs are friendly.'\n- **Fish [фиш]:** рыба.\n\n### Дикие животные\n- **Lion [лайон]:** лев. Пример: 'Lions live in Africa.'\n- **Tiger [тайгер]:** тигр. Пример: 'Tigers are big cats.'\n- **Elephant [элефант]:** слон. Пример: 'Elephants have big ears.'\n\n### Упражнения\n1. Опишите своё любимое животное: 'I like dogs. They are friendly.'\n2. Назовите животных, которых вы видели в зоопарке."
+    },
+    {
+      "id": 6,
+      "class": 2,
+      "title": "Еда",
+      "description": "Научиться называть простые продукты.",
+      "content": "# \n\n### Слова: \n- Apple -Яблоко\n- Juice -Сок\n- Milk -Молоко\n- Bread -Хлеб\n\n### Фразы:\n- I like apples. -Я люблю яблоки.\n- I don't like juice. -Мне не нравится сок.\n\n### Примеры: \n- I drink milk in the morning. -Я пью молоко утром.\n- I eat bread for breakfast.-Я ем хлеб на завтрак."
+    },
+    {
+      "id": 7,
+      "class": 3,
+      "title": "Распорядок дня",
+      "description": "Научиться рассказывать о своем дневном режиме.",
+      "content": "# \n\n### Слова: \n- Get up -Вставать\n- Have breakfast -Завтракать\n- Go to school -Идти в школу\n- Do homework -Делать домашнее задание\n- Play -Играть\n- Go to bed -Ложиться спать\n\n### Фразы: \n- I get up at 7 o'clock. -Я встаю в 7 часов.\n- I do my homework in the evening. -Я делаю уроки вечером.\n\n### Пример: \n- I get up at 7 o'clock every day. -Я встаю в 7 часов каждый день.\n- I go to bed at 9 p.m. -Я ложусь спать в 9 вечера."
+    },
+    {
+      "id": 8,
+      "class": 3,
+      "title": "Время",
+      "description": "Научиться говорить время.",
+      "content": "# \n\n### Слова: \n- O'clock -Ровно(час)\n- Half past -Половина(часа)\n- Quarter past -Четверть после\n- Quarter to -Без четверти\n\n### Фразы: \n- It's seven o'clock. -Сейчас семь часов ровно.\n- It's half past nine. -Сейчас половина десятого.\n- It's quarter past three. -Сейчас четверть четвертого.\n- It's quarter to five. -Без четверти пять.\n\n## Пример: \n- School starts at eight o'clock. -Школа начинается в восемь утра."
+    },
+    {
+      "id": 11,
+      "class": 3,
+      "title": "Школа и образование",
+      "description": "Слова и выражения, связанные со школой и учебными принадлежностями.",
+      "content": "# \n\n### Учебные принадлежности: \n- Book  -Книга.\n- Pen -Ручка.\n- Notebook -Тетрадь.\n- Desk  -Парта.\n\n### Предметы в школе: \n- Math -Математика.\n- English  -Английский язык.\n- History  -История."
+    },
+    {
+      "id": 12,
+      "class": 3,
+      "title": "Спорт и активный отдых",
+      "description": "Лексика, связанная со спортом и отдыхом.",
+      "content": "# \n\n### Спортивные игры: \n- Football  -Футбол. Пример: 'I play football with my friends.'\n- Tennis -Теннис.\n- Basketball  -Баскетбол.\n- Swimming  -Плавание."
+    },
+    {
+      "id": 13,
+      "class": 3,
+      "title": "Одежда и покупки",
+      "description": "Названия предметов одежды и фразы для покупок.",
+      "content": "# \n\n### Одежда: \n- Shirt -Рубашка.\n- Dress -Платье.\n- Shoes -Обувь.\n- Jacket -Куртка.\n\n### В магазине: \n Диалог:\n- 'How much is this dress?'\n- 'It is 50 dollars.'\n- 'Can I try it on?'\n- 'Yes, of course.'"
+    },
+    {
+      "id": 14,
+      "class": 3,
+      "title": "Праздники и традиции",
+      "description": "Слова о праздниках и культурных традициях.",
+      "content": "# \n\n### Популярные праздники: \n- Christmas -Рождество. Пример: 'We decorate a Christmas tree.'\n- New Year -Новый год.\n- Easter -Пасха.\n- Birthday -День рождения.\n\n### Традиции: \n- На Рождество дарят подарки: 'We give gifts on Christmas.'\n- На Новый год запускают фейерверки: 'We light fireworks on New Year.'"
+    },
+    {
+      "id": 15,
+      "class": 4,
+      "title": "Внешность и характер",
+      "description": "Научиться описывать людей.",
+      "content": "# \n\n### Слова(внешность): \n- Tall -Высокий\n- Short -Низкий\n- Slim -Стройный\n- Fat -Полный\n- Blue eyes -Голубые глаза\n- Brown hair -Коричневые волосы\n\n### Слова(характер): \n- Kind -Добрый\n- Funny -Веселый\n- Brave -Храбрый\n- Lazy -Ленивый\n- Smart -Умный\n- Friendly -Дружелюбный\n\n### Фразы: \n- She has long brown hair and blue eyes. -У нее длинные коричневые волосы и голубые глаза.\n- He is tall and slim. -Он высокий и стройный.\n- My friend is kind and smart -Мой друг добрый и умный.\n- She is funny and brave. -Она веселая и храбрая.\n- He is a little lazy, but very friendly. -Он немного ленивый, но очень дружелюбный."
+    },
+    {
+      "id": 16,
+      "class": 4,
+      "title": "Здоровье и благополучие",
+      "description": "Лексика, связанная с состоянием здоровья и здоровым образом жизни.",
+      "content": "# \n\n### Болезни и симптомы\n- Headache -Головная боль.\n- Cold -Простуда.\n- Cough -Кашель.\n- Stomach ache -Боль в животе.\n\n### Здоровый образ жизни\n- Exercise -Физические упражнения. Пример: 'I do exercise every day.'\n- Healthy -Здоровый.\n- Food -Еда."
+    },
+    {
+      "id": 17,
+      "class": 4,
+      "title": "Технологии и интернет",
+      "description": "Слова и выражения о технологиях, интернете и устройствах.",
+      "content": "# \n\n### Устройства\n- Computer -Компьютер. Пример: 'I use a computer for homework.'\n- Phone -Телефон.\n- Tablet -Планшет.\n- **Camera -Камера.\n\n### Интернет\n- Internet -Интернет. Пример: 'I use the internet to find information.'\n- Website -Вебсайт.\n- Social media -Социальные сети."
+    },
+    {
+      "id": 18,
+      "class": 4,
+      "title": "Кино и музыка",
+      "description": "Лексика, связанная с кино, музыкой и хобби.",
+      "content": "# \n\n### Кино и фильмы\n- Movie -Фильм. Пример: 'My favorite movie is The Lion King.'\n- Actor -Актёр.\n- Director -Режиссёр.\n- Cinema -Кинотеатр.\n\n### Музыка\n- Music -Музыка. Пример: 'I listen to music every day.'\n- Song -Песня.\n- Band -Группа."
+    },
+    {
+      "id": 19,
+      "class": 4,
+      "title": "Природа и экология",
+      "description": "Лексика, связанная с природой и охраной окружающей среды.",
+      "content": "# \n\n### Природа\n- Tree -Дерево.\n- River -Река.\n- Mountain -Гора.\n- Ocean -Океан.\n\n### Экология\n- Pollution -Загрязнение.\n- Environment -Окружающая среда.\n- Recycle -Переработка."
+    },
+    {
+      "id": 20,
+      "class": 4,
+      "title": "Навыки профессионала",
+      "description": "Лексика, связанная с карьерой.",
+      "content": "# \n\n### Профессии\n- Teacher -Учитель.\n- Doctor -Врач.\n- Engineer -Инженер.\n- Artist -Художник.\n\n### Навыки\n- Skill -Навык.\n- Experience -Опыт.\n- Knowledge -Знания."
+    }
+  ]
+}
